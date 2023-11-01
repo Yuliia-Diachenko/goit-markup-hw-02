@@ -47,11 +47,12 @@ a, ul {
     text-decoration: underline;
     text-underline-offset: 2px;
 }
-
+.address {
+    font-style: normal;
+}
 .address-contact {
     color: #434455;
-    font-style: normal;
-    
+       
 }
 .address-contact:hover {
     color: #404BBF;
@@ -59,7 +60,7 @@ a, ul {
  .address-contact:focus {
     color: #404BBF;
  }
-/* hero section */
+/* hero section section first*/
 .hero-section {
     background-color: #2E2F42;
 
@@ -88,6 +89,7 @@ a, ul {
 .hero-button:focus {    
     background-color: #404BBF;   
 }
+/* section second */
 .specifics {
     color: #2E2F42;
     font-size: 20px;
@@ -99,16 +101,20 @@ a, ul {
 .specifics-explanation {
     color: #434455;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
+/* section third */
 .our-team {
     background-color: #F4F4FD;
     text-align: center;
+
 }
 .section-titles {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
     text-align: center;
@@ -127,13 +133,14 @@ a, ul {
     color: #434455;    
     font-size: 16px 
 }
+/* section fourth */
 .our-portfolio {
     color: #2E2F42;
     background-color: #FFFFFF;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    line-height: 1.11; /* 111.111% */
+    line-height: 1.11; 
     letter-spacing: 0.72px;
     text-transform: capitalize;       
 }
@@ -147,8 +154,11 @@ a, ul {
 .our-portfolio-product {
     color: #434455;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
    
 }
+/* footer */
 .footer {
     background-color: #2E2F42;
 }
